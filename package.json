@@ -1,0 +1,263 @@
+export const profile = {
+  name: "Joyal Xavier A",
+  title: "Electronics & Communication Engineering Student",
+  subtitle: "IoT · Embedded Systems · Digital Image Processing",
+  location: "Irinjalakuda, Kerala, India",
+  email: "joyalxavier2005@gmail.com",
+  phone: "+91 9633525461",
+  linkedin: "https://linkedin.com/in/joyalxaviera",
+  github: "https://github.com/", // TODO: add your GitHub username
+  resumeFile: "/resume.pdf", // TODO: place your resume PDF in /public as resume.pdf
+  summary:
+    "I'm an Electronics and Communication Engineering student who likes taking ideas from breadboard to working prototype. Over the past two years I've built hands-on experience across IoT systems, embedded firmware, and digital image processing, first through coursework and personal projects, then through internships at IIIT Kottayam and Keltron. I enjoy the point where hardware and software meet: wiring a sensor, reading its signal, and writing the logic that turns raw data into something useful.",
+  aboutParagraphs: [
+    "I'm currently pursuing my B.Tech in Electronics and Communication Engineering at Christ College of Engineering, Irinjalakuda, affiliated with APJ Abdul Kalam Technological University (KTU). My interest in this field started with simple Arduino experiments and grew into a genuine curiosity about how embedded systems, sensors, and networks work together in real products.",
+    "During my internship at IIIT Kottayam, I worked on IoT and embedded technology projects, building applications that combined sensors and microcontrollers for real-time monitoring and control. At Keltron, I focused on the hardware side, disassembling and reassembling computer systems and working with network cabling and infrastructure, which gave me a solid, practical understanding of how systems are built and maintained.",
+    "Outside of internships, I like exploring ideas through small independent projects, from an ultrasonic distance sensor built around a 555 timer, to an image-processing pipeline that classifies eye images using an ESP32-CAM and OpenCV. I'm comfortable working across the stack of a hardware project: circuit design, firmware, and the software that makes sense of the data.",
+    "I'm looking for internship and entry-level opportunities where I can keep building things that combine hardware and software — IoT products, embedded systems, or computer vision applications — while learning from experienced engineers.",
+  ],
+};
+
+export const skillGroups = [
+  {
+    category: "Programming & Firmware",
+    items: ["Embedded C", "Python", "MATLAB", "Arduino IDE"],
+  },
+  {
+    category: "Hardware Platforms",
+    items: ["ESP32 / ESP32-CAM", "Arduino Uno", "Raspberry Pi Zero", "555 Timer IC"],
+  },
+  {
+    category: "Tools & Fabrication",
+    items: ["PCB Design & Fabrication", "OpenCV", "Circuit Prototyping", "Network Cabling"],
+  },
+  {
+    category: "Soft Skills",
+    items: ["Problem Solving", "Quick Learner", "Team Collaboration", "Event Coordination"],
+  },
+  {
+    category: "Languages",
+    items: ["English", "Malayalam", "Hindi"],
+  },
+];
+
+export const experience = [
+  {
+    role: "IoT and Embedded Technologies Intern",
+    org: "IIIT Kottayam (Indian Institute of Information Technology)",
+    duration: "2026",
+    points: [
+      "Gained hands-on experience across IoT systems and embedded technologies in a research-driven environment.",
+      "Built IoT-based applications combining sensors and microcontrollers for real-time data monitoring and control.",
+      "Developed practical skills in hardware-software integration, circuit interfacing, and end-to-end IoT project implementation.",
+    ],
+  },
+  {
+    role: "Hardware and Networking Intern",
+    org: "Keltron (Kerala State Electronics Development Corporation)",
+    duration: "2024",
+    points: [
+      "Performed complete disassembly and reassembly of computer systems, building a strong grasp of internal PC components.",
+      "Diagnosed and resolved hardware faults through structured, hands-on troubleshooting.",
+      "Worked on network infrastructure fundamentals, including physical cabling and hardware connectivity.",
+    ],
+  },
+];
+
+export const projects = [
+  {
+    title: "Automated Drug Identification Using Digital Image Processing",
+    tagline: "Mini Project",
+    description:
+      "An image-processing system that analyzes eye images and classifies them as Alcohol-affected, Jaundice-affected, or Normal, aimed at exploring non-invasive, camera-based health screening.",
+    tech: ["ESP32-CAM", "OpenCV", "Python", "Digital Image Processing"],
+    features: [
+      "Real-time image capture using an ESP32-CAM module",
+      "Automated classification pipeline built on OpenCV",
+      "Three-way classification: Alcohol-affected, Jaundice-affected, or Normal",
+    ],
+    challenges:
+      "Getting consistent, well-lit eye captures from a low-cost camera module and tuning the image pipeline to reduce misclassification across lighting conditions.",
+    outcome:
+      "Delivered a working proof-of-concept demonstrating that low-cost hardware can support meaningful automated visual health screening.",
+    github: "",
+    demo: "",
+  },
+  {
+    title: "Ultrasonic Distance Measurement System",
+    tagline: "Embedded Systems Project",
+    description:
+      "A standalone distance-measurement system that uses an ultrasonic sensor and an Arduino microcontroller to accurately calculate and display target distances.",
+    tech: ["Arduino", "Ultrasonic Sensor", "555 Timer IC", "PWM"],
+    features: [
+      "Accurate real-time distance calculation and display",
+      "Low-level hardware control using 555 timer and PWM concepts",
+      "Compact, self-contained circuit design",
+    ],
+    challenges:
+      "Working with 555 timer-based timing circuits at the hardware level and translating raw pulse-width data into reliable distance readings.",
+    outcome:
+      "Built a reliable, low-cost distance sensor that reinforced fundamentals of analog timing circuits and microcontroller programming.",
+    github: "",
+    demo: "",
+  },
+  {
+    title: "Arduino Calculator",
+    tagline: "Embedded Systems Project",
+    description:
+      "A basic arithmetic calculator built entirely on an Arduino Uno, designed to accept input and display accurate results through a simple user interface.",
+    tech: ["Arduino Uno", "Embedded C"],
+    features: [
+      "Supports core arithmetic operations",
+      "Programmed in Embedded C using the Arduino IDE",
+      "Smooth, responsive user interaction on constrained hardware",
+    ],
+    challenges:
+      "Managing input handling and computation logic within the memory and processing limits of an Arduino Uno.",
+    outcome:
+      "Strengthened foundational embedded programming skills and confidence working with microcontroller-based user interfaces.",
+    github: "",
+    demo: "",
+  },
+];
+
+export const education = [
+  {
+    school: "Christ College of Engineering, Irinjalakuda",
+    detail: "B.Tech in Electronics and Communication Engineering",
+    board: "APJ Abdul Kalam Technological University (KTU)",
+    duration: "2023 – 2027",
+    note: "",
+  },
+  {
+    school: "St. Mary's HSS, Irinjalakuda",
+    detail: "Higher Secondary Education, Bio-Maths Stream",
+    board: "",
+    duration: "2021 – 2023",
+    note: "Percentage: 88.75%",
+  },
+];
+
+export const certifications = [
+  {
+    title: "Blended VLSI Design",
+    issuer: "Maven Silicon",
+    year: "",
+  },
+  {
+    title: "PCB Design and Fabrication Workshop",
+    issuer: "Neo Green Labs",
+    year: "",
+  },
+  {
+    title: "MATLAB Onramp",
+    issuer: "MathWorks",
+    year: "",
+  },
+];
+
+export const achievements = [
+  {
+    title: "ISRO Expo Volunteer",
+    detail:
+      "Volunteered at the ISRO Expo, contributing to event management and visitor assistance.",
+  },
+  {
+    title: "Techfest Volunteer",
+    detail:
+      "Volunteered in Techfest, helping manage technical events and attendee support.",
+  },
+];
+
+export const contact = {
+  email: profile.email,
+  phone: profile.phone,
+  linkedin: profile.linkedin,
+  github: profile.github,
+};
+
+// Real day-by-day log from the PM-VIKAS IoT Assistant training at IIIT Kottayam.
+// Used to seed the progress calendar so it opens already populated; the admin
+// login can still add, edit, or delete any day directly from the site.
+export const pmVikasLog: { date: string; title: string; text: string }[] = [
+  {
+    date: "2026-06-19",
+    title: "Day 01: Introduction to IoT & Ecosystem",
+    text: "Inauguration of the PM-VIKAS IoT Assistant training program. Introduced to IoT nodes, device-to-cloud architectures, real-world smart systems (cities, grid networks), and communication layers.",
+  },
+  {
+    date: "2026-06-20",
+    title: "Day 02: Microcontroller Architectures & IDE",
+    text: "Study of Arduino Uno and ESP32 board layouts. Installation of Arduino IDE software, configuring port selections, writing basic C script routines, and flashing standard status LED programs.",
+  },
+  {
+    date: "2026-06-22",
+    title: "Day 03: Basic Electronic Components",
+    text: "Detailed analysis of electronic devices including Resistors, Capacitors, and Light Emitting Diodes (LEDs). Practical hands-on breadboard wiring configurations and simple circuit design rules.",
+  },
+  {
+    date: "2026-06-23",
+    title: "Day 04: Hardware Measurement & GPIOs",
+    text: "Configuring and testing digital/analog General Purpose Input/Output (GPIO) pins. Measuring voltage, loop currents, and resistance values across wired test circuits using a digital multimeter.",
+  },
+  {
+    date: "2026-06-24",
+    title: "Day 05: Interfacing LDR (Light Sensors)",
+    text: "Interfacing Light Dependent Resistors (LDR) to read changing analog light intensity levels. Programmed thresholds to trigger output alerts based on ambient illumination changes.",
+  },
+  {
+    date: "2026-06-25",
+    title: "Day 06: Interfacing DHT11 Temperature Sensor",
+    text: "Interfacing the DHT11 sensor to monitor environmental temperature and humidity levels. Written data validation logic to filter out noise fluctuations and format values for transmission.",
+  },
+  {
+    date: "2026-06-26",
+    title: "Day 07: ESP32 WiFi & Network Protocols",
+    text: "Setting up the ESP32 microcontroller's Wi-Fi module. Establishing station (STA) connections to local networks and checking communication protocols (IP addressing, TCP client/server models).",
+  },
+  {
+    date: "2026-06-27",
+    title: "Day 08: Blynk IoT Cloud Setup & Auth",
+    text: "Created developer accounts on Blynk IoT Cloud. Set up device templates, virtual datastreams, and generated secure Authentication Tokens. Configured basic mobile application dashboards.",
+  },
+  {
+    date: "2026-06-29",
+    title: "Day 09: Real-time Cloud Telemetry (Blynk)",
+    text: "Programmed the ESP32 to upload environmental parameters (LDR intensity and DHT11 values) to the Blynk Cloud dashboard in real-time. Verified low-latency response and remote app widgets.",
+  },
+  {
+    date: "2026-06-30",
+    title: "Day 10: ThingSpeak Logger & Capstone",
+    text: "Linked the ESP32 to the ThingSpeak server for long-term data logging and visualization. Assembled the final Capstone Project: an integrated Smart Home System that tracks sensors and controls output relays.",
+  },
+];
+
+export const pmVikasModules = [
+  {
+    title: "Electronics",
+    detail: "Components, breadboard circuits, GPIO measurement, and multimeter-based diagnostics.",
+  },
+  {
+    title: "Networking",
+    detail: "ESP32 Wi-Fi (STA mode), IP addressing, and TCP client/server communication models.",
+  },
+  {
+    title: "Arduino Programming",
+    detail: "Arduino IDE setup, C-based scripting, and flashing microcontroller firmware.",
+  },
+  {
+    title: "Hands-on IoT Projects",
+    detail: "Sensor interfacing (LDR, DHT11), cloud telemetry via Blynk/ThingSpeak, and a Smart Home capstone.",
+  },
+];
+
+export const pmVikasStatus = {
+  currentDay: "Day 10 of 10",
+  currentTopic: "Capstone Project — Smart Home System",
+  summary: "Core training modules completed, from IoT fundamentals through cloud telemetry and the final capstone build.",
+};
+
+// Placeholder slots for achievement photos — replace the `src` values once
+// certificates and event photos are supplied; until then these render as
+// empty placeholder cards in the achievements gallery.
+export const achievementPhotos: { src: string; caption: string }[] = [];

@@ -1,0 +1,11 @@
+# Postgres connection string. In Vercel, connecting a database from the
+# Storage tab (Neon or Supabase) adds this automatically. For local
+# development, copy this file to .env.local and paste in the same string
+# (Vercel Storage tab -> your database -> .env.local tab -> Show secret).
+DATABASE_URL=
+
+# The password for the admin login in the top navbar. Set this in Vercel's
+# Environment Variables. If left unset, the app falls back to "pmvikas2026"
+# (defined in lib/auth.ts) — fine for local testing, but change it before
+# sharing your live URL.
+ADMIN_PASSWORD=
